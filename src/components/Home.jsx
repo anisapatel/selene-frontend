@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import * as api from "../utils/api";
+import Loader from "./Loader";
+import ProductCard from "./ProductCard";
 
 class Home extends Component {
   state = {
@@ -19,7 +21,14 @@ class Home extends Component {
       });
   };
   render() {
-    return <main></main>;
+    if (this.state.isLoading) return <Loader />;
+    return (
+      <main>
+        {this.state.products.map((product) => {
+          return <ProductCard key={product._id} {...product} />;
+        })}
+      </main>
+    );
   }
 }
 
