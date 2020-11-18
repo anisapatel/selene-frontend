@@ -1,6 +1,9 @@
 .header {
   display: flex;
   flex-direction: column;
+}
 
-  /* justify-content: space-around; */
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }

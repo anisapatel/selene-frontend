@@ -1,5 +1,6 @@
 .nav {
   align-content: space-between;
+
   background-color: #696969;
 }
 
@@ -16,5 +17,5 @@
 
 .nav__list__item__link {
   text-decoration: none;
-  color: #d3d3d3;
+  color: #dcdcdc;
 }

@@ -1,10 +1,17 @@
 import React from "react";
 
-const ProductCard = ({ name, price }) => {
+const ProductCard = ({
+  productTitle,
+  productPrice,
+  productDescription,
+  productImage,
+}) => {
   return (
     <div>
-      <p>name: {name}</p>
-      <p>price: {price}</p>
+      <p>name: {productTitle}</p>
+      <p>price: {productPrice}</p>
+      <p>description: {productDescription}</p>
+      <p>image: {productImage}</p>
     </div>
   );
 };
