@@ -1,0 +1,10 @@
+.title {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.title__link {
+  text-decoration: none;
+  color: #000000;
+}
